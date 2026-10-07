@@ -1,7 +1,7 @@
 export const SITE = {
   nome: "Brasil Soberano · Paraná",
-  grupoWhatsApp: "https://chat.whatsapp.com/KdUTmzK3Qk7E0kYbEvz15F",
-  url: "https://chat.whatsapp.com/KdUTmzK3Qk7E0kYbEvz15F",
+  grupoWhatsApp: "frente democratica popular",
+  url: "https://whatsapp.com/channel/0029VbE7WAu1dAw7KMikGm33",
 };
 
 // 2º turno: 25/10/2026, votação das 8h às 17h (horário de Brasília). Fontes: ver `calendario` em data/sources.ts
