@@ -1,6 +1,6 @@
 export const SITE = {
   nome: "Brasil Soberano · Paraná",
-  grupoWhatsApp: "frente democratica popular",
+  grupoWhatsApp: "https://whatsapp.com/channel/0029VbE7WAu1dAw7KMikGm33",
   url: "https://whatsapp.com/channel/0029VbE7WAu1dAw7KMikGm33",
 };
 
