@@ -3,16 +3,15 @@ Site de campanha em Next.js 15 + TypeScript (App Router).
 
 ```
 npm install
-cp .env.example .env.local
 npm run dev
 ```
 
 ## Estrutura
 - `data/` conteúdo editável: `config.ts` (evento, data do 2º turno), `reasons.ts`, `audiences.ts`, `conversation.ts`, `plan.ts`, `sources.ts` (registro único de fontes)
 - `types/` tipos compartilhados
-- `lib/` utilidades (`time.ts`, `share.ts`)
-- `components/ui` (Button, Section, SourceList), `layout`, `sections` (blocos da página), `interactive` (componentes client)
-- `app/` rotas: `/` e `/fontes` (lista completa de fontes)
+- `lib/` utilidades (`time.ts`, `share.ts`, `download.ts`)
+- `components/ui` (Button, Section, SourceList), `layout`, `sections` (blocos da página), `interactive` (componentes client), `colinha` (escolha e download das colinhas)
+- `app/` rotas: `/`, `/colinha` (colinha eleitoral) e `/fontes` (lista completa de fontes)
 
 ## Regras de conteúdo
 - Toda informação factual referencia ids de `data/sources.ts`; o TypeScript acusa id inexistente.

@@ -1,0 +1,38 @@
+# Dependências
+node_modules/
+
+# Builds e artefatos do Next.js
+.next/
+out/
+build/
+dist/
+*.tsbuildinfo
+# next-env.d.ts é trackado de propósito em projetos Next
+
+# Vercel
+.vercel/
+
+# Variáveis de ambiente (nunca commitar)
+.env
+.env.local
+.env*.local
+
+# Testes / cobertura
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# SO (macOS / Windows)
+.DS_Store
+Thumbs.db
+
+# Sessões do agente (OpenCode)
+.opencode/
+
+# Configurações de IDE — deixado para decisão de cada dev; descomente se quiser ignorar
+# .idea/
+# .vscode/

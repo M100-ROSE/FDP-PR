@@ -5,7 +5,7 @@ const LINKS: NavLink[] = [
   { href: "/#conversar", label: "Como conversar" },
   { href: "/#motivos", label: "O que está em jogo" },
   { href: "/#plano", label: "Meu plano" },
-  // { href: "/colinha", label: "Colinha" },
+  { href: "/colinha", label: "Colinha" },
   { href: "/fontes", label: "Fontes" },
   {
     href: "https://drive.google.com/drive/folders/1yJuXfSjnTDHjvfhJd9nFcwThOAzBed3w",

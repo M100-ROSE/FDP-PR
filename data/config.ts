@@ -6,6 +6,8 @@ export const SITE = {
 
 // 2º turno: 25/10/2026, votação das 8h às 17h (horário de Brasília). Fontes: ver `calendario` em data/sources.ts
 export const SECOND_ROUND = "2026-10-25T08:00:00-03:00";
+// Fechamento das urnas no 2º turno (17h de Brasília)
+export const SECOND_ROUND_END = "2026-10-25T17:00:00-03:00";
 
 export const EVENT = {
   titulo: "Por um Brasil Soberano: mobilização para a vitória no segundo turno",
