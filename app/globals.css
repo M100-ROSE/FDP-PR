@@ -1,18 +1,18 @@
 :root{
-  --fdp-red: #c1352c;       /* Vermelho forte - indicação Frente Democrática Popular */
+  --fdp-red: #c1352c;       /* Vermelho forte - indicaï¿½ï¿½o Frente Democrï¿½tica Popular */
   --fdp-red-hover: #a82c23;  /* estado hover */
   --fdp-navy: #001a3d;       /* Azul escuro - profundidade popular */
-  --fdp-cream: #faf6f0;      /* Fundo legível, contraste */
-  --fdp-gold: #d4a853;       /* Dourado - mantido mas mais sóbrio */
-  --fdp-green: #4a7c59;      /* Verde - esperança/terra */
+  --fdp-cream: #faf6f0;      /* Fundo legï¿½vel, contraste */
+  --fdp-gold: #d4a853;       /* Dourado - mantido mas mais sï¿½brio */
+  --fdp-green: #4a7c59;      /* Verde - esperanï¿½a/terra */
   --fdp-purple: #6b4c96;     /* Roxo - unidade popular */
   
   --ink:#141414;
   --paper:#faf6f0;
   --paper2:#f0e8d8;
   
-  /* Símbolo subtile - estrela de 5 pontas pequena como background-image */
-  --star-svg: url( data:image/svg+xml,%3Csvg xmlns=\http://www.w3.org/2000/svg\ width=\16\ height=\16\ viewBox=\0 0 16 16\%3E%3Cpolygon points=\8 3 9.6 7.5 12.4 7.5 11.5 11.3 9.3 13.8 7 11.6 5 8 7 4.5 11 1.6 6.4 3 4.5" fill=\%23c1352c\/%3E%3C/svg%3E);
+
+  --star-svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3E%3Cpolygon points='8,1 9.8,6.2 15.3,6.2 10.9,9.5 12.6,14.8 8,11.5 3.4,14.8 5.1,9.5 0.7,6.2 6.2,6.2' fill='%23c1352c'/%3E%3C/svg%3E");
 }
 
 *{
@@ -97,7 +97,7 @@ h3{
  position:relative;
 }
 .hero::before{
- content:;
+  content:"";
   position:absolute;
   top:1rem;
   right:1rem;
